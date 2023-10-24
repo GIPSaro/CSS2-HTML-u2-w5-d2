@@ -242,18 +242,52 @@ footer {
 footer a {
   color: fuchsia;
 }
+
 .iconup {
   border: 3px solid white;
   background-color: rgba(249, 249, 249, 0.91);
   border-radius: 6px;
   position: fixed;
-  bottom: 15px;
-  right: 9px;
-  fill: #a02571;
-  padding: 10px;
-  height: 64px;
+  fill: purple;
+  bottom: 5px;
+  right: 6px;
   z-index: 11;
+  padding: 12px;
+  height: 71px;
+  width: 71px;
+  text-align: center;
 }
+.calendar {
+  fill: rgb(3, 3, 90);
+  border: 3px solid white;
+  backdrop-filter: blur(2px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 10%);
+  border-radius: 6px;
+  position: fixed;
+  top: 840px;
+  right: 6px;
+  z-index: 11;
+  padding: 12px;
+  height: 71px;
+  width: 71px;
+  text-align: center;
+}
+.plus {
+  fill: rgb(3, 3, 90);
+  border: 3px solid white;
+  backdrop-filter: blur(2px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 10%);
+  border-radius: 6px;
+  position: fixed;
+  top: 745px;
+  right: 6px;
+  z-index: 11;
+  padding: 12px;
+  height: 71px;
+  width: 71px;
+  text-align: center;
+}
+
 /*576px*/
 
 @media screen and (min-width: 576px) {
@@ -284,47 +318,35 @@ section p {
   line-height: 3rem;
   word-spacing: 2rem;
 }
-@media screen and (min-width: 700px) {
-  .iconup {
-    position: fixed;
-    border: 3px solid white;
-    background-color: rgba(249, 249, 249, 0.91);
-    border-radius: 6px;
-    position: fixed;
-    bottom: 30px;
-    right: -3px;
-    fill: #a02571;
-    padding: 5px;
-    height: 60px;
-    z-index: 11;
-  }
-}
 .calendar {
-  position: fixed;
-  fill: rgb(3, 3, 90);
-  border: 3px solid white;
-  background-color: rgba(249, 249, 249, 0.91);
-  border-radius: 6px;
-  position: fixed;
-  bottom: 180px;
-  right: -3px;
-  z-index: 11;
-  padding: 5px;
-  height: 60px;
-}
-.plus {
-  position: fixed;
   fill: rgb(3, 3, 90);
   border: 3px solid white;
   backdrop-filter: blur(2px);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 10%);
   border-radius: 6px;
   position: fixed;
-  bottom: 270px;
-  right: -3px;
+  top: 840px;
+  right: 6px;
   z-index: 11;
-  padding: 5px;
-  height: 60px;
+  padding: 12px;
+  height: 71px;
+  width: 71px;
+  text-align: center;
+}
+.plus {
+  fill: rgb(3, 3, 90);
+  border: 3px solid white;
+  backdrop-filter: blur(2px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 10%);
+  border-radius: 6px;
+  position: fixed;
+  top: 745px;
+  right: 6px;
+  z-index: 11;
+  padding: 12px;
+  height: 71px;
+  width: 71px;
+  text-align: center;
 }
 
 @media screen and (min-width: 768px) {
@@ -439,16 +461,37 @@ section p {
     margin-left: auto;
     margin-right: auto;
   }
+}
+@media screen and (min-width: 700px) {
   .calendar {
-    position: fixed;
-    border: 3px solid rgb(17, 0, 128);
+    fill: rgb(3, 3, 90);
+    border: 3px solid white;
+    backdrop-filter: blur(2px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 10%);
     border-radius: 6px;
     position: fixed;
-    bottom: 870px;
-    right: -3px;
+    top: 105px;
+    right: 6px;
     z-index: 11;
-    padding: 5px;
-    height: 60px;
+    padding: 12px;
+    height: 71px;
+    width: 71px;
+    text-align: center;
+  }
+  .plus {
+    fill: rgb(3, 3, 90);
+    border: 3px solid white;
+    backdrop-filter: blur(2px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 10%);
+    border-radius: 6px;
+    position: fixed;
+    top: 5px;
+    right: 6px;
+    z-index: 11;
+    padding: 12px;
+    height: 71px;
+    width: 71px;
+    text-align: center;
   }
 }
 @media print {
